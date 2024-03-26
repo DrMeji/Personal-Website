@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4style.css">
+    <script defer src="5javascript.js"></script>
+    <title>Contact Me</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <h1>Thomas Mejia</h1>
+        </div>
+        <div id="links">
+            <a href="1index.html">Home</a>
+            <a href="2about.html">About</a>
+            <a href="3portfolio.html">Portfolio</a>
+            <a class="active" href="contactme.html">Contact</a>
+            <a href="https://twitter.com/home" target="_blank"><img src="img/x.png" alt="X"></a>
+            <a href="https://www.twitch.tv/" target="_blank"><img src="img/twitch.png" alt="twitch"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.jpg" alt="instagram"></a>
+        </div>
+    </nav>
+    <main>
+        <h1>Contact Me</h1>
+        <form id="contact">
+            <div>
+                <label for="name">Name:</label>
+                <br>
+                <input id="name" type="text" name="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input id="email" type="email" name="email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="50"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
